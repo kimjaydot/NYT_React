@@ -61,7 +61,7 @@ class Main extends React.Component {
 
           </div>
           </div>
-<div className="row">
+    <div className="row">
           <div className="col-md-12">
 
             <Results address={this.state.results} />
