@@ -49,9 +49,9 @@ class Main extends React.Component {
       <div className="container">
         <div className="row">
           <div className="jumbotron">
-            <h2 className="text-center"><h2><u>New York Times Article Scrubber</u></h2>
+            <h2 className="text-center">New York Times Article Scrubber</h2>
             <p className="text-center">
-              <em>Enter a landmark to search for its exact address (ex: "Eiffel Tower").</em>
+              Search for and annotate articles of interest
             </p>
           </div>
 
