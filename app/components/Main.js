@@ -1,8 +1,9 @@
 import React from "react";
 
 // Import sub-components
-import Form from "./children/Form";
 import Search from "./children/Search";
+import Saved from "./children/Saved";
+
 
 // Helper Function
 import helpers from "./utils/helpers";
@@ -67,7 +68,7 @@ class Main extends React.Component {
         <div className="row">
           <div className="col-md-12">
 
-            <Form setTerm={this.setTerm} />
+            <Saved setTerm={this.setTerm} />
 
           </div>
           </div>
