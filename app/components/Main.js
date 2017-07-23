@@ -54,6 +54,16 @@ class Main extends React.Component {
               Search for and annotate articles of interest
             </p>
           </div>
+       
+        <div className="row">
+          <div className="col-md-12">
+
+            <Search address={this.state.search} />
+
+          </div>
+          </div>
+       
+       
         <div className="row">
           <div className="col-md-12">
 
@@ -61,13 +71,7 @@ class Main extends React.Component {
 
           </div>
           </div>
-    <div className="row">
-          <div className="col-md-12">
-
-            <Search address={this.state.search} />
-
-          </div>
-          </div>
+   
 
         </div>
 
