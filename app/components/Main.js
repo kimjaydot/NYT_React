@@ -55,13 +55,13 @@ class Main extends React.Component {
             </p>
           </div>
 
-          <div className="col-md-6">
+          <div className="row">
 
             <Form setTerm={this.setTerm} />
 
           </div>
 
-          <div className="col-md-6">
+          <div className="row">
 
             <Results address={this.state.results} />
 
