@@ -60,7 +60,7 @@ class Main extends React.Component {
         <div className="row">
           <div className="col-md-12">
 
-            <Search address={this.state.search} />
+           <Search setTerm={this.setTerm} />
 
           </div>
           </div>
