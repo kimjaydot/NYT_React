@@ -2,7 +2,7 @@ import React from "react";
 
 // Import sub-components
 import Form from "./children/Form";
-import Results from "./children/Results";
+import Search from "./children/Search";
 
 // Helper Function
 import helpers from "./utils/helpers";
@@ -64,7 +64,7 @@ class Main extends React.Component {
     <div className="row">
           <div className="col-md-12">
 
-            <Results address={this.state.results} />
+            <Search address={this.state.search} />
 
           </div>
           </div>
