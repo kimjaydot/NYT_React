@@ -32,7 +32,7 @@ class Saved extends React.Component {
 
       <div className="panel panel-default">
         <div className="panel-heading">
-          <h3 className="panel-title text-center"></h3>
+          <h3 className="panel-title text-center">Saved Articles</h3>
         </div>
         <div className="panel-body text-center">
 
