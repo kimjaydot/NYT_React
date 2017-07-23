@@ -2,6 +2,7 @@ import React from "react";
 
 // Import sub-components
 import Search from "./children/Search";
+import Results from "./children/Results";
 import Saved from "./children/Saved";
 
 
@@ -60,6 +61,15 @@ class Main extends React.Component {
           <div className="col-md-12">
 
             <Search address={this.state.search} />
+
+          </div>
+          </div>
+
+
+           <div className="row">
+          <div className="col-md-12">
+
+            <Results address={this.state.search} />
 
           </div>
           </div>
