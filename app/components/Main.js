@@ -54,17 +54,19 @@ class Main extends React.Component {
               Search for and annotate articles of interest
             </p>
           </div>
-
-          <div className="row">
+        <div className="row">
+          <div className="col-md-12">
 
             <Form setTerm={this.setTerm} />
 
           </div>
-
-          <div className="row">
+          </div>
+<div className="row">
+          <div className="col-md-12">
 
             <Results address={this.state.results} />
 
+          </div>
           </div>
 
         </div>
